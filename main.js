@@ -30,7 +30,7 @@ function sum(){
     var number2=document.getElementById("input2").value;
     
     var regExp = /[a-zA-Z]/g;
-    if(regExp.test(number1)||regExp.test(number2)){
+    if(regExp.test(number1)){
         throw new reference_error("input is not a Number: err");
     }
 
